@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/GreenLight"
+    tools:context="com.example.rames.creditcardexp.MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:layout_marginTop="150dp"
+
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:background="#ffffff"
+        android:padding="15dp"
+        android:layout_marginTop="215dp"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:background="#ffffff"
+        android:textSize="25dp"
+        android:layout_marginTop="320dp"
+          />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Not a Member? Sing up now."
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="110dp"
+        android:layout_marginLeft="95dp"
+
+
+        />
+
+
+</RelativeLayout>
